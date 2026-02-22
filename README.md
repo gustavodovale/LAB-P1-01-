@@ -1,29 +1,31 @@
-Implementação do Scaled Dot-Product Attention
+## Atividade LAB-01: Implementação do Scaled Dot-Product Attention
 
-Sobre o Atividade LAB-01: O trabalho implementar o mecanismo de Scaled Dot-Product Attention, apresentado no artigo "Attention Is All You Need" (base da arquitetura Transformer).
+O trabalho implementar o mecanismo de Scaled Dot-Product Attention, apresentado no artigo "Attention Is All You Need" (base da arquitetura Transformer).
 
-LINGUAGENS DE PROGRAMAÇÃO
+#### LINGUAGENS DE PROGRAMAÇÃO
 Linguagem Utilizada: Python 3.12.3
 
-INSTALAÇÂO NECESSARIA
+#### INSTALAÇÂO NECESSARIA
 
-**Dependência necessária:** pip install numpy
+Dependência necessária: **pip install numpy**
 
-INSTRUÇÕES COMO RODA O SCRIPT:
+#### INSTRUÇÕES COMO RODA O SCRIPT:
 
-**Para rodar o código vai ter que digita isso no terminal:** python3 test_attention.py
+No terminal: **python3 test_attention.py**
 
-EXEMPLO DE INPUT UTILIZADO:
+#### EXEMPLO DE INPUT UTILIZADO:
 
 Q = [[1,2,2],[1,1,2]]
 K = [[2,5,6],[0,8,1]]
 V = [[10,50],[20,60]]
 
-EXEMPLO DE OUTPUT ESPERADO:
+#### EXEMPLO DE OUTPUT ESPERADO:
 
 [[10.3035109  50.3035109 ]
  [10.05507332 50.05507332]]
 
 
- NORMALIZAÇÃO APLICADO ( raiz𝑑k ): Antes dos Dados passarem para o softmax, precisar passar no escalonamento divide os produto escalar pela raiz quadrada da dimensão dasd chaves 
+ #### NORMALIZAÇÃO APLICADO ( raiz𝑑k ): 
+ 
+ Antes dos Dados passarem para o softmax, precisar passar no escalonamento divide os produto escalar pela raiz quadrada da dimensão das chaves.
  
